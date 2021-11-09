@@ -34,6 +34,9 @@ reader.question("What would you like to calculate?", function(input){
 	else if(mathSymbol === 'sqrt'){
 		console.log(Math.sqrt(num1))
 	}
+	else if(mathSymbol === 'cube'){
+		console.log(num1 * num1 * num1)
+	}
 
 
 
